@@ -66,6 +66,13 @@ p {
     line-height: 1.4;
 }
 
+body {
+margin-left:8%;
+margin-right:8%;
+margin-bottom:3%;
+margin-top:3%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -75,16 +82,25 @@ nav {
  		display: flex;
 		justify-content: space-around;
 		align-items: center;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		width: 100%;
+}
+
+nav a {
 		text-decoration: none;
 		color: black;
 }
 
-
+nav a:hover {
+ color: teal;
+ font-weight: bold;
+}
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -95,6 +111,7 @@ nav {
     padding-bottom: 20px;
 		padding-top: 20px;
 }
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -268,19 +285,37 @@ footer nav a {
 }
 
 /*css for About */
+.top-content-about {
+	display: flex;
+	flex-direction: column;
+	height: 120px;
+	margin-top: 10px;
+	border-bottom: 1px dotted black;
+}
 
 	.details {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
+		justify-content: space-between;
 	}
 
 	.topics {
 		display: flex;
 		flex-direction: column;
-		width: 40%;
+		width: 45%;
 		justify-content: space-around;
 		border-bottom: 1px dotted black;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.topic-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-top: 10px;
+		height: 150px;
 	}
 
 	button {
@@ -288,4 +323,12 @@ footer nav a {
 		border-radius: 8px;
 		width: 30%;
 		padding: 5px;
+		margin-bottom: 10px;
+	}
+
+	.CTA {
+		display: flex;
+		flex-direction: column;
+		height: 150px;
+		justify-content: center;
 	}
