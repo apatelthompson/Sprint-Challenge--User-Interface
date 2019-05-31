@@ -1,0 +1,18 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is like a 2 in 1 - it does its job in creating structure (eg. presentation guidance) but it also provides a powerful roadmap in giving context  (eg. the meaning of what it is). Eg you could use a <div> to mark a section (and sometimes that’s all you need, to keep it simple and general) but using something like <main> helps to understand that this section is the main bit of the site. That also helps when indexing the site and potentially pulling out some parts and not others.
+
+2. Name two big differences between display: block;anddisplay: inline;.
+1) Display: block can change margin, padding properties while display:inline you can’t (unless you use display: inline-block)
+2) Display: block always starts a new line while display:inline elements don’t
+
+3. What are the 4 areas of the box model?
+Content, Padding, Border, Margin
+
+4. While using flexbox, what axis does the following property work on:align-items: center?
+Cross-axis (assuming flex-direction is row)
+
+5. Explain why git is valuable to a team of developers.
+Collaboration: allows a team of developers to work on the same project using branching which makes it fast and easy
+Speed: Everyone works on a full version of the repo and issues on one doesn’t impact others from making progress
+Version control: Can track and manage changes more effectively
+Flexibility:  Creates a culture of faster, smaller changes

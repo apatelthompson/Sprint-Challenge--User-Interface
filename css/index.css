@@ -67,10 +67,8 @@ p {
 }
 
 body {
-margin-left:8%;
-margin-right:8%;
-margin-bottom:3%;
-margin-top:3%;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .container {
@@ -112,6 +110,9 @@ nav a:hover {
 		padding-top: 20px;
 }
 
+.jumbo-header-img {
+	width: 100%;
+}
 
 .middle-content {
     margin-bottom: 20px;
@@ -129,8 +130,7 @@ nav a:hover {
     justify-content: space-evenly;
 }
 
-
-.middle-content .boxes .box-1 {
+.middle-content .boxes .box {
 		width: 12.5%;
 		height: 100px;
 		background: black;
@@ -139,115 +139,6 @@ nav a:hover {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: teal;
-}
-
-.middle-content .boxes .box-2 {
-		width: 12.5%;
-		height: 100px;
-		background: black;
-		margin: 20px 2.5%;
-		color: white;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-color: gold;
-}
-
-.middle-content .boxes .box-3 {
-		width: 12.5%;
-		height: 100px;
-		background: black;
-		margin: 20px 2.5%;
-		color: white;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-color: cadetblue;
-}
-
-.middle-content .boxes .box-4 {
-		width: 12.5%;
-		height: 100px;
-		background: black;
-		margin: 20px 2.5%;
-		color: white;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-color: coral;
-}
-
-middle-content .boxes .box-5 {
-		width: 12.5%;
-		height: 100px;
-		background: black;
-		margin: 20px 2.5%;
-		color: white;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-color: crimson;
-}
-
-middle-content .boxes .box-6 {
-		width: 12.5%;
-		height: 100px;
-		background: black;
-		margin: 20px 2.5%;
-		color: white;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-color: forestgreen;
-}
-
-middle-content .boxes .box-7 {
-		width: 12.5%;
-		height: 100px;
-		background: black;
-		margin: 20px 2.5%;
-		color: white;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-color: darkorchid;
-}
-
-middle-content .boxes .box-8 {
-		width: 12.5%;
-		height: 100px;
-		background: black;
-		margin: 20px 2.5%;
-		color: white;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-color: hotpink;
-}
-
-middle-content .boxes .box-9 {
-		width: 12.5%;
-		height: 100px;
-		background: black;
-		margin: 20px 2.5%;
-		color: white;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-color: indigo;
-}
-
-middle-content .boxes .box-10 {
-		width: 12.5%;
-		height: 100px;
-		background: black;
-		margin: 20px 2.5%;
-		color: white;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-color: dodgerblue;
 }
 
 
@@ -285,12 +176,21 @@ footer nav a {
 }
 
 /*css for About */
+.main {
+	width: 100%;
+}
+
+
 .top-content-about {
 	display: flex;
 	flex-direction: column;
 	height: 120px;
 	margin-top: 10px;
 	border-bottom: 1px dotted black;
+}
+
+.jumbo-about-header-img {
+	width: 100%;
 }
 
 	.details {
@@ -316,6 +216,7 @@ footer nav a {
 		justify-content: space-between;
 		margin-top: 10px;
 		height: 150px;
+		margin-bottom: 10px;
 	}
 
 	button {
